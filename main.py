@@ -1,5 +1,6 @@
 import time
 
+list = deque()
 
 
 def recursive_fibonacci(n):
