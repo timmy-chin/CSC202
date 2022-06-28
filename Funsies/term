@@ -1,0 +1,39 @@
+import copy
+from /Projects/project1-timmy-chin/knights.py import valid_path
+
+def count_none(lst):
+	sum = 0
+	for sublst in lst:
+		for element in sublst:
+			if element == None:
+				sum += 1
+	return sum
+
+	
+def find_tour(board, row, col)
+	copy_board = copy.copy(board)
+	if count_none(copy_board) == 0:
+		return [(row, col)]
+	elif count_none(copy_board) != 0 and len(valid_path(copy_board, row, col) == 0:
+		return None
+	
+	path = valid_path(copy_board, row, col)
+	while len(path) >= 1:
+		start_row = row
+		start_col = col
+		copy_board[row][col] = 'V'
+		row, col = path[0]
+		try_path = find_tour(copy_board, row, col)
+		if try_path is None:
+			path = path[1:]
+		else:
+			return [(start_row,start_col)] + try_path
+
+
+board = [["B", None, None, None, "Q"],
+                 [None, "N", "P", None, None],
+                 [None, None, None, "P", None],
+                 [None, None, None, None, None],
+                 [None, "K", None, None, "R"]] 
+
+print(find_tour(board, row, col))   	
