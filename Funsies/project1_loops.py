@@ -61,11 +61,9 @@ def find_tour(board, row, col):
 
 
 board = [["B", None, None, None, "Q"],
-                 [None, "N", "P", None, None],
-                 [None, None, None, "P", None],
+                 [None, None, "P", None, None],
+                 [None, None, 'N', "P", None],
                  [None, None, None, None, None],
-                 [None, "K", None, None, "R"]] 
+                 [None, "K", None, None, "R"]]
 
-print(count_none(board))
-print(find_tour(board, 1, 1))
-print(board)
+print(find_tour(board, 2,2))
