@@ -134,3 +134,46 @@
 #     #     self.assertIsNone(tour, msg)
 #
 
+# def get(lst, value):
+#     if len(lst) == 1:
+#         if lst[0] == value:
+#             return 0
+#         else:
+#             return None
+#
+#     if lst[0] != value:
+#         temp = get(lst[1:], value)
+#         if temp is None:
+#             return None
+#         else:
+#             return 1 + temp
+#
+#     else:
+#         return 0
+
+#
+# elements = [('a', 1), ('b', 2), ('c', 4), ('b', 5), ('c', 9)]
+# stream = (element for element in elements)
+# # # val, t = next(stream)
+# # # print(t)
+# # # print(val)
+# #
+# #
+# for element in stream:
+#     print(element)
+#
+#
+# # print([(chr(i+96), i) for i in range(1,31)])
+
+
+print([i for i in range(3000, 0, -1)])
+
+
+
+
+
+
+
+
+
+

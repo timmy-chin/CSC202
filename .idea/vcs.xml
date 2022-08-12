@@ -5,8 +5,17 @@
     <mapping directory="$PROJECT_DIR$/Labs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Labs/lab01-timmy-chin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Labs/lab02-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab03-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab04-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab05-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab06-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab07-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab08-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labs/lab09-timmy-chin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Projects/lab02-timmy-chin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Projects/project1-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/project2-timmy-chin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/project3-timmy-chin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab01-timmy-chin" vcs="Git" />
   </component>
 </project>
